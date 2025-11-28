@@ -1,0 +1,10 @@
+streamlit
+pillow
+numpy
+pandas
+matplotlib
+requests
+torch
+torchvision
+tensorflow
+joblib
