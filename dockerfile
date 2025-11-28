@@ -33,7 +33,7 @@ RUN bash -c 'echo "\
 headless = true\n\
 enableCORS = false\n\
 port = 8501\n\
-" > /app/.streamlit/config.toml'
+" > /app/.streamlit/secrets.toml'
 
 
 CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0"]
